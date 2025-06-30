@@ -17,6 +17,7 @@ for _,v in ipairs(manifest) do
         print("Failed to download " .. v[2])
         return
     end
+    print("Downloaded " .. v[2])
 end
 
 for i = 5, 1, -1 do
