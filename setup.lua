@@ -12,7 +12,11 @@ local manifest =
 }
 
 for _,v in ipairs(manifest) do
-    shell.run("wget", v[1], v[2])
+    local status = shell.run("wget", v[1], v[2])
+    if not status then
+        print("Failed to download " .. v[2])
+        return
+    end
 end
 
 for i = 5, 1, -1 do
