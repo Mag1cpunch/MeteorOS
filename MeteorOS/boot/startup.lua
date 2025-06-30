@@ -1,5 +1,5 @@
-if disk.exists("/setup.lua") then
-    disk.delete("/setup.lua")
+if fs.exists("/setup.lua") then
+    fs.delete("/setup.lua")
 end
 
 print("Hello, World MeteorOS!")

@@ -1,9 +1,9 @@
-if disk.exists("/MeteorOS") then
-    disk.delete("/MeteorOS")
+if fs.exists("/MeteorOS") then
+    fs.delete("/MeteorOS")
 end
 
-if disk.exists("/startup.lua") then
-    disk.delete("/startup.lua")
+if fs.exists("/startup.lua") then
+    fs.delete("/startup.lua")
 end
 
 local manifest = 
