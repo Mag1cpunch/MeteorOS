@@ -8,7 +8,7 @@ end
 
 local manifest = 
 {
-    {"https://raw.githubusercontent.com/Mag1cpunch/MeteorOS/refs/heads/main/MeteorOS/boot/startup.lua?token=GHSAT0AAAAAADFWRQLUJGRDGBGFD3ZUBE542DCM63A", "/startup.lua"}
+    {"https://raw.githubusercontent.com/Mag1cpunch/MeteorOS/refs/heads/main/MeteorOS/boot/startup.lua?token=GHSAT0AAAAAADFWRQLVCRRKBO44SNELHE5S2DCN4MA", "/startup.lua"}
 }
 
 for _,v in ipairs(manifest) do
